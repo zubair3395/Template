@@ -1,0 +1,125 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    color: gray;
+    font-style: italic;
+}
+hr{
+    height: 2px;
+}
+h1,h2,h3{
+    margin: 1px;
+    color: rgb(33, 23, 23);
+}
+.nav-bar{
+       display: flex;
+       justify-content: space-between;
+}
+#nav-heading{
+    margin-left: 3rem;
+}
+.nav{
+    display: flex;
+}
+li, .input-tag{
+    margin-left: 1.25rem;
+}
+.input-tag{
+    margin-right: 1rem;
+    border-radius: 1rem;
+    background-color: white;
+}
+.input-tag :hover{
+    cursor: pointer;
+    background-color: darkgrey;
+    color: aliceblue;
+}
+li{
+    margin-top: 8px;
+    list-style: none;
+}
+a{
+   text-decoration: none;
+}
+.container{
+    margin: 1rem;
+    margin-left: 3rem;
+}
+.line{
+    width: 100%;
+    background-color: rgb(195, 181, 181);
+    height: 2px;   
+}
+.line .dark{
+    display: block;
+    width: 10%;
+    background-color: black;
+    height: 1px;
+}
+.features{
+    display: flex;   
+}
+.features2{
+    margin-left: 2rem;
+
+}
+.picture1,.picture2{
+    margin: 2rem;
+    width: 35rem;
+    display: flex;
+   box-shadow: 1px 1px 3px grey;
+}
+img{
+    width: 18.75rem;
+    height: 13.5rem;
+}
+.pix :hover{
+    transform:perspective(200px) rotateX(5deg);
+    cursor: pointer;
+     
+}
+.heading{
+    margin-top: 0.5rem;
+}
+.stor-pix1, .stor-pix2{
+    margin: 3rem;
+    width: 18.75rem;
+    box-shadow: 1px 1px 3px grey;
+}
+.menu-pix{
+    margin-left: 5px;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+}
+ .menu{
+    margin-left: 5px;
+    display: flex;
+    margin-left: 3rem;
+    margin-top: -3rem;
+}
+.text{
+    margin-left: 1rem;
+}
+.text1{
+    margin-left: 0.5rem;
+}
+.dark{
+    border-bottom: 2px solid black;
+    width: 10%;
+}
+.light{
+    border-bottom: 1px solid black;
+    width: 90%;
+}
+.date{
+    margin-top: 1px;
+}
+.cart{
+    margin-left: 2rem;
+}
+@media screen and (min-width:500px){
+    
+
+}
